@@ -22,7 +22,7 @@ To get started with the image gallery project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Arun-Thiyaagarajan/image-gallery.git
    ```
 
 2. Navigate to the project directory:
