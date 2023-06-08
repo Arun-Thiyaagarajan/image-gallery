@@ -1,0 +1,37 @@
+.input-box {
+    max-width: 100%;
+    width: 50%;
+    background: transparent;
+    margin: 2rem auto 5rem;
+    border-radius: 50px;
+}
+
+.input-box input {
+    background: transparent;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: var(--text-grey);
+    letter-spacing: 1px;
+    padding: 0.9rem 1.5rem;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.input-box input:focus {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 6px, rgba(0, 0, 0, 0.13) 0px 3px 6px;
+}
+
+.input-box input::placeholder {
+    color: rgba(32, 32, 32, 0.196);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .input-box {
+        width: 80%;
+    }   
+}
